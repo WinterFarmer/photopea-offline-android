@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <group
+        android:scaleX="0.66"
+        android:scaleY="0.66"
+        android:pivotX="100"
+        android:pivotY="100">
+        <!-- 
+          Koordinat spiral 100% asli dari SVG Photopea:
+          Berawal dari X=59, Y=187 (kaki kanan P) naik ke Y=112.2, memutar spiral,
+          lalu turun ke kaki kiri P (X=38.6) dan diteruskan lurus ke bawah (V260) agar tidak terputus.
+        -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M59,260 L58.6,112.2 q0,-0.3 0,-0.6 c0,-28.3 22.5,-51.3 50.4,-51.3 c16.7,0 30.3,13.8 30.3,30.8 c0,17 -13.6,30.8 -30.3,30.8 c-5.6,0 -10.1,-4.6 -10.1,-10.3 c0,-5.6 4.5,-10.2 10.1,-10.2 c5.6,0 10.1,-4.6 10.1,-10.3 c0,-5.6 -4.5,-10.2 -10.1,-10.2 c-16.7,0 -30.2,13.7 -30.2,30.7 c0,17.1 13.5,30.8 30.2,30.8 c27.9,0 50.4,-22.9 50.4,-51.3 c0,-28.3 -22.5,-51.3 -50.4,-51.3 c-39,0 -70.6,32.1 -70.6,71.8 q0,0.4 0,0.7 h-0.1 L38.6,260 Z" />
+    </group>
+</vector>

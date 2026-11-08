@@ -1,0 +1,24 @@
+# File hasil kompilasi Android & Gradle
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Abaikan folder build di dalam modul app
+app/build/
+build/
+
+# File Keystore / Signing (jika ada)
+*.jks
+*.keystore
+
+# File backup / temporary
+*.bak
+*.tmp
+*.log
