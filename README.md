@@ -1,6 +1,6 @@
 # Photopea Offline Wrapper (Android)
 
-Aplikasi wrapper ringan (~22 KB) berbasis Android System WebView untuk menjalankan **Photopea** secara 100% offline.
+Aplikasi wrapper ringan (45KB) berbasis Android System WebView untuk menjalankan **Photopea** secara offline.
 
 ## Fitur Utama
 - **Persistent Engine Lock:** Menyimpan aset inti Photopea (`photopea.com` & `vecpea.com`) ke dalam direktori *User Data* (`getFilesDir()`), sehingga kebal terhadap pembersihan cache sistem (*Clear Cache*).
